@@ -1,0 +1,32 @@
+create table check_6 (
+	id int not null auto_increment,
+    productName varchar(255),
+    productPrice float,
+    dateCol date,
+    primary key(id)
+);
+insert into check_6 (productName, productPrice, dateCol) values
+('bag', 1.50, "2018-06-16"),
+('carrot', 5.1, "2018-06-16"),
+('bread', 17.85, "2018-06-16"),
+('dessert', 25, "2018-06-16"),
+('eggs', 60, "2018-06-16"),
+('yoghurt', 34.57, "2018-06-16"),
+('cottage cheese', 39.9, "2018-06-16"),
+('cheese', 154.89, "2018-06-16"),
+('chicken breast', 164.26, "2018-06-16"),
+('chicken wings', 138.68, "2018-06-16"),
+('oats', 58.17, "2018-06-16"),
+('bread', 17.85, "2018-06-16"),
+('milk', 45, "2018-06-16"),
+('milk', 45, "2018-06-16"),
+('chocolate', 59, "2018-06-16"),
+('tampons', 168.95, "2018-06-16"),
+('tampons', 91.05, "2018-06-16"),
+('spaghetti', 43.93, "2018-06-16"),
+('toilet paper', 45, "2018-06-16"),
+('tumeric', 9, "2018-06-16"),
+('tooth brush', 27.1, "2018-06-16"),
+('tooth brush', 27.1, "2018-06-16"),
+('deodorant', 111.55, "2018-06-16"),
+('razor blades', 359.9, "2018-06-16");
